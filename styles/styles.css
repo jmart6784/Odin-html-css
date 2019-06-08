@@ -41,8 +41,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-* {
-	background-color: black;
-	color: white;
+.google {
+	max-width: 300px;
+	max-height: 150px;
+}
+li {
+	font-family: 'Roboto', sans-serif;
+	display: inline;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
