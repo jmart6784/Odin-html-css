@@ -42,16 +42,20 @@ table {
 	border-spacing: 0;
 }
 .google {
-	width: 275px;
+	width: 290px;
 	height: 100px;
 	max-width: 300px;
 	max-height: 150px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 li {
 	font-family: 'Roboto', sans-serif;
 	display: inline;
 	float: right;
-	padding-right: 15px;
+	padding-right: 16px;
 	padding-top: 15px;
 }
 ul {
@@ -67,14 +71,19 @@ ul {
 	max-height: 50px;
 	margin-top: 7px;
 	margin-right: 5px;
+	border-radius: 20px;
 }
 .dots:hover {
-	text-decoration: underline;
+	opacity: .5;
+	box-shadow: 1px 1px 1px 1px grey;
 }
 .j {
 	border-radius: 20px;
 	margin-right:3px;
 	margin-top: 1px;
+}
+.j:hover{
+	opacity: .5;
 }
 .images, .gmail {
 	padding-top: 25px;
@@ -88,4 +97,24 @@ a {
 }
 a:hover {
 	text-decoration: underline;
+}
+.search {
+	position: absolute;
+	top: 52%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	height: 30px;
+	border-radius: 20px;
+	background-color: #eaecef;
+	font-family: "Roboto", sans-serif;
+}
+.mic {
+	position: absolute;
+	top: 52%;
+	left: 50%;
+	transform: translate(900%, -50%);
+}
+.mic:hover {
+	
 }
