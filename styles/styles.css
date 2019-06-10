@@ -107,6 +107,7 @@ a:hover {
 	background-color: #eaecef;
 	font-family: "Roboto", sans-serif;
 	border-color: #eaecef;
+	border: 0px;
 }
 .mic {
 	position: absolute;
