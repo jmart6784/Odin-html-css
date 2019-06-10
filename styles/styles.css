@@ -42,8 +42,6 @@ table {
 	border-spacing: 0;
 }
 .google {
-	width: 290px;
-	height: 100px;
 	max-width: 300px;
 	max-height: 150px;
 	position: absolute;
@@ -103,18 +101,16 @@ a:hover {
 	top: 52%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 500px;
-	height: 30px;
+	width: 600px;
+	height: 35px;
 	border-radius: 20px;
 	background-color: #eaecef;
 	font-family: "Roboto", sans-serif;
+	border-color: #eaecef;
 }
 .mic {
 	position: absolute;
 	top: 52%;
 	left: 50%;
-	transform: translate(900%, -50%);
-}
-.mic:hover {
-	
+	transform: translate(1100%, -50%);
 }
